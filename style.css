@@ -1,0 +1,35 @@
+/* On sélectionne tous les boutons de la page */
+div{
+    margin-left: 100px;
+    color: blue;
+}
+input {
+    /* On leur donne un fond de couleur bleue */
+    background-color: rgb(145, 108, 115);
+    /* On leur donne une bordure blanche */
+    border: 2px solid white;
+    /* On leur donne une bordure arrondie */
+    border-radius: 5px;
+    /* On leur donne une couleur de texte blanche */
+    color: white;
+    /* On leur donne une hauteur et une largeur plus grandes */
+    height: 75px;
+    width: 150px;
+    /* On leur donne une police de caractère et un style en gras */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    /* On les décale vers la droite de 20 pixels */
+    margin-left: 20px;
+  }
+    
+  /* On sélectionne le premier bouton de la page */
+  button:nth-of-type(1) {
+    /* On lui donne une couleur de fond verte */
+    background-color: rgb(145, 108, 115);
+  }
+  
+  /* On sélectionne le deuxième bouton de la page */
+  button:nth-of-type(2) {
+    /* On lui donne une couleur de fond rouge */
+    background-color: rgb(145, 108, 115);
+  }
